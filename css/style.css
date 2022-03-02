@@ -137,6 +137,11 @@ h1 a {
     background-image: none;
 }
 
+.azul .main-header nav a,
+.rojo .main-header nav a {
+    color: #eee;
+}
+
 .main-header li:nth-child(4) a::after {
     content: " +";
     color: #0050a4;
@@ -146,6 +151,35 @@ h1 a {
     width: 500px;
     margin: 0 auto;
     padding-bottom: 100px;
+}
+
+.contenedor h2 {
+    font-weight: 500;
+    color: white;
+    font-size: 12em;
+    position: relative;
+    top: 100px;
+    left: -100px;
+}
+
+.contenedor p {
+    color: #333;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.azul h2 {
+    color: #003670;
+}
+
+.rojo h2 {
+    color: #bd332a;
+}
+
+.azul p,
+.rojo p {
+    color: #eee;
 }
 
 .main-header nav li:nth-child(2) a:hover {
